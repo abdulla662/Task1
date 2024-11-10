@@ -1,0 +1,28 @@
+(Standard numeric format)
+int X = 10;
+int Y = 20;
+Console.WriteLine($"Equation: {X} + {Y} = {X + Y:C}");
+
+
+in one (1) pdf page:
+1. why the output of this Equation = $30.00?
+2. what is its benefit?
+3. try another example with a different specifier with a screenshot of the output.
+
+
+
+
+                                                Answer
+   output for  the equation is Equation: 10 + 20 = $30.00
+   "$" فكرتها كلها انها  بتحط علامة العمله بتاعت النظام وليكن  مثلا "c" بص يا هندسه العلامه دي
+   وطبعا اغلبية  الوقت بتستخدم في الانظمه  المحاسبيه والبنكيه يععني
+   مثال اخر  عليها
+              int X = 10;
+           double Y = 22.5;
+           Console.WriteLine($"Equation: {X} + {Y} = {X + Y:F2}");
+
+  بتاعها هيكون  output دي ال 
+  Equation: 10 + 22.5 = 32.50
+  حته لو الرقم ال هيطلع  صحيح وليكن 9 هتخليه 9.00  بس كده  decimal لي لان  دي بتخلي  اي  ناتج بتحطله  اتنين 
+
+   
